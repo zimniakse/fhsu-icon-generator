@@ -54,6 +54,7 @@ input[type="text"] {
 }
 
 pre {
+    overflow-x: auto;
     font-family: "JetBrains Mono", monospace;
     line-height: 1.4;
     background: #fafafa;
