@@ -1,0 +1,59 @@
+@import 'normalize.css';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100svh;
+    line-height: 1.6;
+}
+
+main {
+    flex: 1;
+    padding: 1rem 2rem;
+    overflow-y: auto;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background: #fafafa;
+    height: 100%;
+}
+
+.sidebar > form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    overflow: auto;
+}
+
+input[type="button"] {
+    margin: 1rem;
+    max-height: 4em;
+    height: 100%;
+}
+
+input[type="button"]:hover {
+    cursor: pointer;
+}
+
+input[type="text"] {
+    margin: 0 0 0.75em 0;
+    padding: 0.25em;
+}
+
+pre {
+    font-family: "JetBrains Mono", monospace;
+    line-height: 1.4;
+    background: #fafafa;
+    padding: 1em;
+}

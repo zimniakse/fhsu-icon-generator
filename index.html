@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FHSU Icon Generator</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <form>
+          <label for="icon-fb" id="facebook-icon">Facebook</label>
+          <input type="text" id="icon-fb" placeholder="https://facebook.com/">
+          <label for="icon-ig" id="instagram-icon">Instagram</label>
+          <input type="text" id="icon-ig" placeholder="https://instagram.com/">
+          <label for="icon-li" id="linkedin-icon">LinkedIn</label>
+          <input type="text" id="icon-li" placeholder="https://linkedin.com/">
+          <label for="icon-rss" id="rss-icon">RSS</label>
+          <input type="text" id="icon-rss" placeholder="https://fhsu.edu/newsrss.xml">
+          <label for="icon-sc" id="snapchat-icon">Snapchat</label>
+          <input type="text" id="icon-sc" placeholder="https://snapchat.com/">
+          <label for="icon-tg" id="telegram-icon">Telegram</label>
+          <input type="text" id="icon-tg" placeholder="https://telegram.org/">
+          <label for="icon-th" id="threads-icon">Threads</label>
+          <input type="text" id="icon-th" placeholder="https://threads.net/">
+          <label for="icon-tl" id="tigerlink-icon">Tiger Link</label>
+          <input type="text" id="icon-tl" placeholder="https://tigerlink.fhsu.edu/">
+          <label for="icon-tt" id="tiktok-icon">TikTok</label>
+          <input type="text" id="icon-tt" placeholder="https://tiktok.com/">
+          <label for="icon-wa" id="whatsapp-icon">WhatsApp</label>
+          <input type="text" id="icon-wa" placeholder="https://whatsapp.com/">
+          <label for="icon-wc" id="wechat-icon">WeChat</label>
+          <input type="text" id="icon-wc" placeholder="https://wechat.com/">
+          <span><label for="icon-x" id="x-icon">X</label>/Twitter</span>
+          <input type="text" id="icon-x" placeholder="https://twitter.com/">
+          <label for="icon-yt" id="youtube-icon">YouTube</label>
+          <input type="text" id="icon-yt" placeholder="https://www.youtube.com/">
+        </form>
+        <input type="button" onclick="generate()" value="Generate Icons">
+      </div>
+      <main>
+        <h1>FHSU Social Media Icon Generator</h1>
+        <pre id="output">Output will be generated here...</pre>
+      </main>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
